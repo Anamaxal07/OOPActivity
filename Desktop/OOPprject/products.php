@@ -7,22 +7,6 @@
     <title>Products</title>
 </head>
 <body>
-    name
-	description
-	price
-	srp
-	
-	setName()
-	setDescription()
-	setPrice()
-	
-	getName()
-	getDescription()
-	getPrice()
-	
-	computeSRP() {
-		price * 1.5;
-	}
     <?php
     class Products {
         private $name 
@@ -55,7 +39,7 @@
             return $this->name;
         }
 
-        function computeSrp() {
+        function calcuSrp() {
             return $this->price * 1.5;
         }
     }
