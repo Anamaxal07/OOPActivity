@@ -37,11 +37,12 @@
         }
 
 	    function getExpirationDate(){
-            return $this->getExpirationDate;
+            return $this->expirationDate;
         }
-        function calcuSrp() {
+        function computeSRP() {
             return $this->getPrice() * 2;
         }
     }
+    ?>
 </body>
 </html>
