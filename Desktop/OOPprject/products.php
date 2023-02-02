@@ -32,7 +32,7 @@
         }
         function getDescription() {
             return $this->description;
-
+        }
         function getPrice() {
             return $this->price;
         }
@@ -41,7 +41,7 @@
             return $this->price * 1.5;
         }
     }
-}
+
     ?>
 </body>
 </html>
