@@ -7,28 +7,12 @@
     <title>Products</title>
 </head>
 <body>
-    name
-	description
-	price
-	srp
-	
-	setName()
-	setDescription()
-	setPrice()
-	
-	getName()
-	getDescription()
-	getPrice()
-	
-	computeSRP() {
-		price * 1.5;
-	}
     <?php
     class Products {
-        private $name 
-        private $description
-        private $price
-        private $srp
+        private $name ;
+        private $description;
+        private $price;
+        private $srp;
 
 
         function setName($name) {
@@ -40,25 +24,24 @@
         }
 
         function setPrice($price) {
-            $this->srp = $srp;
+            $this->price = $price;
         }
 
         function getName() {
             return $this->name;
         }
-
         function getDescription() {
-            return $this->name;
+            return $this->description;
         }
-
         function getPrice() {
-            return $this->name;
+            return $this->price;
         }
 
-        function computeSrp() {
+        function calcuSrp() {
             return $this->price * 1.5;
         }
     }
+
     ?>
 </body>
 </html>

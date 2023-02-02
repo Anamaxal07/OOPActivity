@@ -35,6 +35,7 @@
 
         $cart->addToCart($medicine[0]);
         $cart->addToCart($medicine[1]);
+        $cart->addToCart($medicine[1]);
         $cart->viewCart();
         $cart->computeTotal();
     ?>
